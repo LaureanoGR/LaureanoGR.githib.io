@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link href="./style.css" type="text/css" rel="stylesheet">
+  <title>
+    Laureano Gonzalez's Portfolio
+  </title>
+
+<body>
+
+  <header>
+    <nav class="topnav" id="portfolioTopnav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#accompl">Accomplishments</a>
+      <a href="#contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="openMenu"><i class="fa fa-bars"></i> </a>
+    </nav>
+    <h1>Laureano Gonzalez</h1>
+  </header>
+  <main>
+    <div id="aboutsection">
+      <! this line was commented <img src="myimage.jpg" width="135" height="180" alt="photo of Laureano" />
+      <a href="https://www.linkedin.com/in/cv-laureano/" target="_blank">
+        <figure>
+          <img src="myimage.jpg" width="135" height="180" alt="this image has a link to linkedIn" />
+      </a>
+      </figure>
+      <! ------Below is the code part "about" ------->
+        <h2 id="about" class="heading uppercase">About</h2>
+        <p>PhD candidate whose research is focused on monitoring sedimentation in water resources using <em>fibre optic
+            temperature sensing</em>. Extensive international experience in the oil and gas industry as a senior
+          reservoir
+          engineer and facilitator of reservoir studies aiming to optimise petroleum recovery and projects’ profits.
+          Motivated by the principle of a more sustainable society, I decided to undertake the PhD program to expand my
+          academic, professional and general skills, and apply them into projects aiming <strong> to incorporate
+            practices and
+            technologies to optimise natural resources and mitigate climate change.</strong></p>
+        <br>
+        <br>
+        <! ------Below is the code part "skills" ------->
+          <h3 id="skills">Skills</h3>
+          <h4>Research skills</h4>
+          <ul class="list">
+            <li>Developed a methodology to monitoring sedimentation and storage capacity changes using fibre optic
+              distributed temperature sensors coupled with heat pulses.</li>
+            <li>Used creative problem-solving and solution methods in an academic project during the Innovation
+              Management course, where I proposed a diversified business model involving saltwater waste from the oil
+              and gas industry, aquaculture activities and Queensland communities.</li>
+            <li>Identified factors affecting the production of petroleum fields such as adverse mobility ratio, and
+              designed/modelled enhanced production methods to improve recovery.</li>
+          </ul>
+          <h4>Interpersonal skills</h4>
+          <ul class="list">
+            <li>Represent and advocate for the research student community on the USC’s Research Degree Committee.</li>
+            <li>Coordinated short and long-term activities and studies for reservoir teams in the oil and gas industry.
+            </li>
+            <li>Worked with other Master and PhD students from different disciplines to develop innovative solutions to
+              characterise and unlock gas from unconventional reservoirs.</li>
+          </ul>
+          <h4>Technical skills</h4>
+          <ul class="list">
+            <li>Expertise in numerical simulators and analytical tools to support engineering analysis and development
+              plans (e.g. Ansys, Source, Petrel, Eclipse, CMG, Nodal Analysis, well test analysis).</li>
+            <li>Expertise in uncertainty and optimization software such as Crystal Ball, DMS and CMOST.</li>
+            <li>Proficient user of Microsoft Office (OneNote, Excel, PowerPoint, Word).</li>
+            <li>Basic programming knowledge using R and Python.</li>
+          </ul>
+    </div>
+    <div id="accomplishmentssection">
+      <! ------Below is the code part "accomplishments" ------->
+        <h2 id="accompl">Accomplishments</h2>
+        <table>
+          <tr>
+            <th scope="col"> Publications</th>
+            <th scope="col"> Awards</th>
+            <th scope="col"> Presentations</th>
+          </tr>
+          <tr>
+            <td>3D Modeling of Multi-Stage Hydraulic Fractures</td>
+            <td>Bc thesis heighest degree and special honour</td>
+            <td>Static to Dynamic Progressive Reservoir Modeling of Platanal Field</td>
+          </tr>
+        </table>
+    </div>
+    <h3>Coding Examples</h3>
+    <a href="./quiz.html" target="_blank">Take the Portfolio Quiz!
+    <div id="contactsection">
+      <! ------Below is the code part "contact" ------->
+        <h2 id="contact" class="contactform">Contact</h2>
+        <a href="https://www.linkedin.com/in/cv-laureano/" target="_blank"> LinkedIn. </a>
+        <br>
+        <br>
+        <form>
+          <label for="name">*Name:</label>
+          <br>
+          <input type="text" name="name-text-field" id="name" value="Laureano" required>
+          <br>
+          <br>
+          <label for="email">*Email</label>
+          <br>
+          <input type="text" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+          <br>
+          <br>
+          <label for="mobile">Mobile (optional):</label>
+          <br>
+          <input type="tel" name="mobile" id="mobile" pattern="[0-9]{10,16}">
+          <br>
+          <br>
+          <label for="message">*Leave your message below:</label>
+          <br>
+          <textarea id=”message” name=”message” rows=”5” cols="30" required></textarea>
+          <br>
+          <br>
+          <input type="submit">
+        </form>
+    </div>
+  </main>
+  <script src="./nav.js"></script>
+</body>
+</head>
+
+</html>
